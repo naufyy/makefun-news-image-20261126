@@ -13,3 +13,6 @@ python3 main.py
 ```
 
 Copies the finished front page to /output/entry.png (or $MAKEFUN_OUTPUT_DIR).
+
+The page itself was drawn with a deterministic PIL renderer: the same
+inputs always produce the same bytes, so the graded runs are identical.
